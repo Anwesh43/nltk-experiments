@@ -5,7 +5,7 @@ try:
         paragraph = f.read()
 except:
     print 'file does not exist'
-paragraph = paragraph.replace('\n','')
+paragraph = paragraph.replace('\n',' ')
 print paragraph
 if(len(sys.argv) == 2):
     module=sys.argv[1]
